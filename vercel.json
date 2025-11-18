@@ -13,8 +13,9 @@
       "use": "@vercel/node"
     }
   ],
-  "routes": [
-    { "src": "/socket.io/(.*)", "dest": "backend/dist/index.js" },
-    { "src": "/(.*)", "dest": "client/dist/$1" }
-  ]
+ "routes": [
+  { "src": "/socket.io/(.*)", "dest": "backend/dist/index.js" },
+  { "src": "/api/(.*)", "dest": "backend/dist/index.js" },
+  { "src": "/(.*)", "dest": "/client/dist/index.html" }
+]
 }
