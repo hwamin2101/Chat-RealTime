@@ -15,6 +15,6 @@ A real-time chat application with streaming AI responses.
 - Frontend: React 19, TypeScript, Tailwind, Shadcn/UI, Zustand
 - Backend: Node.js, Express, Socket.IO, MongoDB
 - AI: Streaming responses (Gemini)
-- Deploy: Render 
+- Deploy: Vercel
 
 
